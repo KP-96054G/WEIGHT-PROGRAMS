@@ -15,6 +15,9 @@ int main()
     cout << name << "weight? ";
     int val;
     cin >> val;
+    cout << name << "desired weight? ";
+    int dval;
+    cin >> dval;
     //cout << "How many times should he say it? ";
     //int count;
     //cin >> count;
@@ -22,7 +25,7 @@ int main()
     int y {};
     y = OK % 100;
     int p = 10;
-    for (size_t i = val-100; i > 250; i = i - y)
+    for (size_t i = val-100; i > dval; i = i - y)
     {
         cout << name << "went on a diet! " << endl << "He lost " << y << " pounds" << endl << "His new weight is " << i << endl;
         p++;
@@ -32,7 +35,7 @@ int main()
         
 
     }
-    cout << "ERROR! " << name << "UNDER 250 POUNDS IMPOSSIBLE!";
+    cout << name << " Under " << dval << " pounds reached!";
     
     
     return 0;
