@@ -52,16 +52,16 @@ if int(w2) > int(w3):
 if int(w) > int(w2):
     if int(w) > int(w3):
         
-        print(name + " a fatass")
+        print(name + " weights the most")
 
 
 if int(w2) > int(w):
     if int(w2) > int(w3):
-        print(name2 + " a fatass")
+        print(name2 + " weights the most")
 
 if int(w3) > int(w2):
     if int(w) < int(w3):
-        print(name3 + " a fatass")
+        print(name3 + " weights the most")
 
 print("")
 
